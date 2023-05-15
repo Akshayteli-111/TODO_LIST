@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+.todo_app{
+  box-shadow: 0 0 9px 0 #1d21431a;
+  padding: 50px;
+  text-align: center;
+}
+div#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+input {
+  border: 1px solid #ccc;
+  padding: 10px 30px;
+  margin: 10px;
+}
+.frm button {
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  background: skyblue;
+  font-weight: 700;
+  cursor: pointer;
+}
+.lists button{
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  background: skyblue;
+  font-weight: 700;
+  cursor: pointer;
+}
+ul.ulist {
+  padding: 0px;
+}
+
+.ulist li {
+  list-style: none;
+  text-align: start;
+}
+input[type="checkbox"] {
+ 
+  margin-right: 20px;
+}
+.completed{
+  margin: 0px 10px;
+}
+.btn{
+  margin: 0px 20px;
+}
